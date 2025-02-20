@@ -1,0 +1,89 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-image: url(../img/Design\ sem\ nome\ \(2\)\ 12.png) ;
+    background-size: contain;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.correto{
+    border: 2px solid green;
+}
+
+.error-message {
+    color: red;
+    font-size: 10px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .texto{
+   width: 300px;
+   height: 112px; 
+   color: #ffffff;
+}
+
+.texto h1{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+.texto p{
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: 12px;
+}
+
+.conteudo{
+    width: 340px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffffff ;
+    margin-left: 60px;    
+}
+
+.conteudo .formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+input, .btn, textarea{
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+    
+}
+textarea{
+    height: 100px;
+}
+
+.btn{
+    background-color: #3CCC87;
+    height: 42px;
+    margin-bottom: 20px;
+}
+.conteudo .formulario p{
+    font-weight: 400;
+    font-size: 15px;
+    width: 149px;
+    height: 18px;
+    margin-top: 7px;
+    font-weight: 400;
+}
