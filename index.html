@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quest-Formulário</title>
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main class="main">
-       
-        <section class="texto">
-            <h1>Ficou com Dúvida? Nos mande uma mensagem</h1>
-            <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
-        </section>
-        <div class="conteudo">
-        <form id="meuFormulario" class="formulario" method="get" action="index.html">
-            <input type="text" placeholder=" Nome Completo *" name="Nome" id="campo">
-            <small class="error-message"></small>
+      <section class="texto">
+        <h1>Ficou com Dúvida? Nos mande uma mensagem</h1>
+        <p>
+          Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+          entraremos em contato em menos de 24h.
+        </p>
+      </section>
+      <div class="conteudo">
+        <form
+          id="meuFormulario"
+          class="formulario"
+          method="get"
+          action="index.html"
+        >
+          <input
+            type="text"
+            placeholder=" Nome Completo *"
+            name="Nome"
+            id="campo"
+          />
+          <small class="error-message"></small>
 
-            <input type="email" name="email" id="campo" placeholder=" Email *">
-            <small class="error-message"></small>
-        
+          <input type="email" name="email" id="campo" placeholder=" Email *" />
+          <small class="error-message"></small>
 
-            <input type="number" name="nunber" id="campo" placeholder=" Telefone *">
-            <small class="error-message"></small>
+          <input
+            type="number"
+            name="nunber"
+            id="campo"
+            placeholder=" Telefone *"
+          />
+          <small class="error-message"></small>
 
-            <textarea name="Mensagem" id="campo" placeholder=" Mensagem *"></textarea>
-            <small class="error-message"></small>
+          <textarea
+            name="Mensagem"
+            id="campo"
+            placeholder=" Mensagem *"
+          ></textarea>
+          <small class="error-message"></small>
 
-            <p>*Campos Obrigatórios</p>
+          <p>*Campos Obrigatórios</p>
 
-            <button type="submit" class="btn">Enviar</button>
+          <button type="submit" class="btn">Enviar</button>
         </form>
-     </div>
- 
-
+      </div>
     </main>
-    
-
-
-
-
-
 
     <script src="./src/js/index.js"></script>
-</body>
+  </body>
 </html>
